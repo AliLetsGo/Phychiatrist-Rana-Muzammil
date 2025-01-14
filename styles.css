@@ -1,0 +1,281 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background for the entire page */
+    color: #fff; /* White text */
+}
+
+h1, h2, h3 {
+    color: #fff; /* White for headings */
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50; /* Green links for better visibility */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333; /* Dark header */
+    color: white;
+    padding: 0; /* Remove top and bottom padding */
+    margin: 0; /* Remove any margin */
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 36px;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
+
+nav .menu-toggle {
+    font-size: 30px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('your-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons .btn {
+    background-color: #4CAF50;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttons .btn:hover {
+    background-color: #45a049;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    background-color: #000; /* Black background for About section */
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+}
+
+.about p {
+    font-size: 18px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* Qualifications Section */
+.qualifications {
+    padding: 50px 0;
+    background-color: #000; /* Black background for Qualifications section */
+    text-align: center;
+}
+
+.qualifications h2 {
+    font-size: 32px;
+}
+
+.qualifications ul {
+    padding: 0;
+    list-style: none;
+}
+
+.qualifications li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #000; /* Black background for Services section */
+}
+
+.services h2 {
+    font-size: 32px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Timing Section */
+.timing {
+    padding: 50px 0;
+    background-color: #000; /* Black background for Timing section */
+    text-align: center;
+}
+
+.timing h2 {
+    font-size: 32px;
+}
+
+.timing ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timing li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Contact Form Section */
+.contact {
+    padding: 50px 0;
+    background-color: #000; /* Black background for Contact section */
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff; /* White labels */
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333; /* Dark input fields */
+    color: #fff; /* White text in input fields */
+}
+
+.contact button {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.contact .whatsapp-section {
+    margin-top: 30px;
+    background-color: #000; /* Black background for WhatsApp section */
+    padding: 20px;
+    text-align: center;
+}
+
+.contact .whatsapp-btn {
+    background-color: #25d366;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contact .whatsapp-btn:hover {
+    background-color: #128C7E;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header .menu-toggle {
+        display: block;
+        font-size: 30px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .about p, .services li, .qualifications li {
+        font-size: 16px;
+    }
+
+    .contact form {
+        padding: 0 10px;
+    }
+}
